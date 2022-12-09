@@ -1,0 +1,194 @@
+Settings:
+  debugMode: true
+Hooks:
+  Vault: false
+  AdvancedBan: true
+  PlaceholderAPI: true
+  TAB: true
+vanilla:
+  enabled: true
+oreMoney:
+  enabled: true
+  settings:
+    oreMultiplier: 1
+    breakInCreative: true
+    pickupInCreative: true
+    needEnchantment: true
+    enchantmentType: SILK_TOUCH
+    sellItem:
+      - DIAMOND_ORE
+      - DEEPSLATE_DIAMOND_ORE
+booksOnline:
+  enabled: true
+pvp:
+  enabled: true
+  defaultSetting: true
+pm:
+  enabled: true
+  soundNotify: true
+ignore:
+  enabled: true
+team:
+  enabled: true
+try:
+  enabled: true
+coin:
+  enabled: true
+do:
+  enabled: true
+dice:
+  enabled: true
+  maxDices: 3
+roll:
+  enabled: true
+  maxRoll: 100
+broadcast:
+  enabled: true
+enderchest:
+  enabled: true
+  openMessage: true
+booksClone:
+  enabled: true
+  notify: true
+mapsClone:
+  enabled: true
+  notify: true
+coordinates:
+  enabled: true
+deathCoordinates:
+  enabled: true
+deathMessage:
+  enabled: true
+  formatting: true
+  customMessage: true
+plHide:
+  enabled: true
+customJoinMessage:
+  enabled: true
+customQuitMessage:
+  enabled: true
+customUnknownCommandMessage:
+  enabled: true
+  unknownCommand: "/links"
+reputation:
+  enabled: true
+  settings:
+    notify: true
+    startReputation: 1
+    reputationCost: 5
+    negativeValues: true
+farmProtection:
+  enabled: true
+  settings:
+    notify: true
+    playersProtect: true
+    entityProtect: true
+commandsTranslator:
+  enabled: true
+  settings:
+    consoleNotify: true
+    disabledCommands:
+      - '/try'
+      - '/do'
+      - '/bc'
+      - '/msg'
+      - '/pm'
+      - '/tell'
+tags:
+  enabled: true
+  settings:
+    titleNickname: ""
+    subTitleNickname: "%vanilla_accent%[player]"
+    actionbarNickname: "%vanilla_accent%[player]"
+    title:
+      fadeIn: 10
+      stay: 20
+      fadeOut: 10
+chat:
+  enabled: true
+  settings:
+    global: true
+    globalSymbol: "!"
+    enableJson: true
+    notify: false
+    localRadius: 100
+    rpRadius: 20
+autoMessage:
+  enabled: true
+  settings:
+    randomize: true
+    interval: 10
+    minPlayers: 0
+    prefix: "[AM]"
+    messages:
+      - "1. Правила сервера. (КЛИК)\n"
+      - "2. Вопросы по серверу и интересные факты. (КЛИК)\n"
+      - "3. Купить/Оплатить проходку. (КЛИК)\n"
+links:
+  enabled: true
+  settings:
+    site:
+      message: "Сайт сервера. (КЛИК)\n"
+      url: "https://vanilla-plus.ru"
+      description: "Сайт"
+    rp:
+      message: "Ресурспак сервера. (КЛИК)\n"
+      url: "https://vanilla-plus.ru"
+      description: "Ресурспак"
+    discord:
+      message: "Дискорд сервера. (КЛИК)\n"
+      url: "https://vanilla-plus.ru"
+      description: "Дискорд"
+    monitoring:
+      message: "Мониторинг сервера. (КЛИК)\n"
+      url: "https://vanilla-plus.ru"
+      description: "Мониторинг"
+    commands:
+      message: "Команды сервера. (КЛИК)"
+      url: "https://vanilla-plus.ru"
+      description: "Список всех команд сервера, которые доступны каждому!"
+    rules:
+      message: "Правила сервера. (КЛИК)\n"
+      url: "https://vanilla-plus.ru"
+      description: "Список всех правил сервера, которые нужно знать, чтобы не получить бан!"
+    faq:
+      message: "Вопросы по серверу и интересные факты. (КЛИК)\n"
+      url: "https://vanilla-plus.ru"
+      description: "Вся информация по серверуа также ответы на любые вопросы!"
+themes:
+  default:
+    permission: "group.default"
+    accentColor: "{#A5ACB7}"
+    primaryColor: "{#CAD1E0}"
+  green:
+    permission: "group.vip"
+    accentColor: "{#83C916}"
+    primaryColor: "{#E8F8C8}"
+  blue:
+    permission: "group.moder"
+    accentColor: "{#0EA4E5}"
+    primaryColor: "{#DCEEFA}"
+  red:
+    permission: "group.admin"
+    accentColor: "{#B7163D}"
+    primaryColor: "{#ECC8D3}"
+  purple:
+    permission: "theme.purple"
+    accentColor: "{#885BF2}"
+    primaryColor: "{#D0C3F7}"
+  yellow:
+    permission: "theme.yellow"
+    accentColor: "{#E5B008}"
+    primaryColor: "{#F7F5C3}"
+  pink:
+    permission: "theme.pink"
+    accentColor: "{#E74796}"
+    primaryColor: "{#F9E3EF}"
+  white:
+    permission: "theme.white"
+    accentColor: "{#F4F4F5}"
+    primaryColor: "{#A8A8A8}"
+  discord:
+    permission: "theme.discord"
+    accentColor: "{#676CFB}"
+    primaryColor: "{#D1D3F8}"

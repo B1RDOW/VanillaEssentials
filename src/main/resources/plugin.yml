@@ -1,0 +1,80 @@
+name: VanillaEssentials
+prefix: VanillaEssentials
+main: com.birdow.vanillaessentials.VanillaEssentials
+version: 3.0.1
+api-version: 1.19
+softdepend: [PlaceholderAPI, Vault, LuckPerms, TAB, AdvancedBan, SuperVanish, PremiumVanish]
+website: vanilla-plus.ru
+author: BIRDOW
+commands:
+  vanilla:
+    description: Main VanillaEssentials command
+    usage: /<command> <reload | restart | stop>
+    aliases: [ villa, vila, va, vanillaessentials, essentials, essentialsx ]
+  broadcast:
+    description: Send broadcast message to players
+    usage: /<command> <message>
+    aliases: [ bc ]
+  enderchest:
+    description: Open virtual ender-chest
+    usage: /<command>
+    aliases: [ ec, ender-chest ]
+  ore:
+    description: Convert ore to money
+    usage: /<command> <sell|get|autosell|pickupsell|balance>
+    aliases: [ ar ]
+  pm:
+    description: Send private message to player
+    usage: /<command> <player> <message>
+    aliases: [ me, tell, msg ]
+  pvp:
+    description: Toggles pvp
+    usage: /<command> <on | off>
+    aliases: [ pvptoggle, pve ]
+  chat:
+    description: Chat
+    usage: /<command>
+    aliases: [ chat-settings ]
+  ignore:
+    description: Ignore player
+    usage: /<command> <player>
+  try:
+    description: Try
+    usage: /<command> <message>
+  do:
+    description: Do
+    usage: /<command> <message>
+  coin:
+    description: Flip a coin
+    usage: /<command>
+  dice:
+    description: Dice
+    usage: /<command> <count>
+  roll:
+    description: Roll
+    usage: /<command> <count>
+  links:
+    description: Print all links
+    usage: /<command>
+    aliases: [ link, lk, vanillalinks, help, info, ? ]
+  rp:
+    usage: /<command>
+    aliases: [ ksepsp ]
+  rules:
+    usage: /<command>
+    aliases: [ rule ]
+  site:
+    usage: /<command>
+    aliases: [ vanilla-plus ]
+  commands:
+    usage: /<command>
+    aliases: [ cmds, cmd ]
+  faq:
+    usage: /<command>
+    aliases: [ questions, facts ]
+  discord:
+    usage: /<command>
+    aliases: [ ds ]
+  monitoring:
+    usage: /<command>
+    aliases: [ hotmc ]
